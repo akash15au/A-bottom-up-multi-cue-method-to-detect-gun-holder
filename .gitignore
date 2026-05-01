@@ -1,0 +1,46 @@
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# Backend Python
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+
+# Python global
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment files
+.env
+*.env
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Large model files (optional)
+*.pt
+*.pth
+*.onnx
+*.weights
+
+# Videos / outputs (optional)
+*.mp4
+*.avi
+*.mov
+
+# Temporary numpy outputs (optional)
+*.npy
